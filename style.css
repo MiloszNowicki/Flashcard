@@ -1,0 +1,94 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin:10px;
+}
+[class*='col-']{
+  float: left;
+  padding: 12px;
+}
+.col-1{
+  flex-basis:20%;
+}
+.col-2{
+  flex-basis:40%;
+}
+.col-3{
+  flex-basis:60%;
+}
+.col-4{
+  flex-basis:80%;
+}
+.col-5{
+  flex-basis:100%;
+}
+.card {
+ height: 100%;
+}
+.dodaj{
+
+}
+
+.btns{
+
+
+}
+.btns button{
+  padding:10px;
+  margin:5px;
+}
+.begin{
+  border:solid green  2px;
+  font-size: 3em;
+  text-align: center;
+  top: 100px;
+}
+
+.holder{
+  margin: 15% auto;
+  height: 450px;
+  width: 650px;
+  margin-top:5%;
+  border:solid black  2px;
+}
+.flashcard {
+  border: 1px solid black;
+  height: 100%;
+  width: 650px;
+  background-color: blue;
+}
+
+.flipped {
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+}
+
+.front {
+  height: 100%;
+  width: 650px;
+  text-align: center;
+}
+.back {
+  height: 100%;
+  width: 650px;
+  text-align: center;
+  color:red;
+
+}
+
+.front p, .back p {
+  margin-top: 30%;
+  font-size: 3em;
+}
+
+.vanish{
+display: none;
+}
